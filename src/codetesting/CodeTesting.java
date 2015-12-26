@@ -9,9 +9,9 @@ class CodeTesting {
        if (x/2 < y+3)
            a = true;
        b=true;
-       if ((x==y) || (y<x))
+       if ((x=y) || (y<x))
        {
-           System.out.println("Got to here!");
+           System.out.println("Broken");
        }
    }
 }
